@@ -1,0 +1,134 @@
+.farms {
+}
+
+.farms .total-balance {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -12px;
+}
+
+.farms .bird-farm {
+      font-size: 28px;
+      line-height: 25px;
+      color: #032352;
+      font-weight: 600;
+}
+
+.farms .liquidity {
+      font-size: 19px;
+      line-height: 30px;
+      color: #032352;
+      font-weight: 400;
+}
+
+.farms .balance-details {
+      font-size: 17px;
+      line-height: 25px;
+      color: #032352;
+      font-weight: 600;
+}
+.farms .farm-styled-cards {
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+}
+
+.farms .farm-styled-cards .farm-styled-card {
+      width: 33.3%;
+      margin-bottom: 3rem;
+      flex-grow: 1;
+}
+
+.farms .farm-styled-cards .farm-styled-card .farm-card {
+      width: 22rem;
+      height: 26.5rem;
+      background: white;
+      text-align: center;
+      border: 1.10756px solid #f3efef;
+      box-sizing: border-box;
+      box-shadow: 0px 1.66518px 8.32589px rgb(148 183 240 / 16%);
+      border-radius: 28px;
+}
+
+.farms .farm-styled-card .farm-card .card-icon {
+      border-radius: 50%;
+      padding: 11px;
+      width: 65px;
+      height: 65px;
+      margin-top: 2rem;
+      background: #ffffff;
+      border: 2px solid #f6dedb;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 41.3897px rgb(0 0 0 / 3%);
+}
+
+.farms .farm-styled-card .farm-card h3 {
+      margin-top: 2rem;
+      color: #032352;
+      font-size: 27px;
+      font-weight: 600;
+}
+
+.farms .farm-styled-card .farm-card h6 {
+      margin-top: 1rem;
+      color: #ae0707;
+      font-size: 16px;
+      font-weight: 700;
+}
+
+.farms .farm-styled-card .farm-card p {
+      margin-top: 3rem;
+      color: #032352;
+      font-size: 16px;
+      font-weight: 300;
+      width: 16rem;
+      margin-right: auto;
+      margin-left: auto;
+      word-spacing: 1px;
+}
+
+.farms .farm-styled-card .farm-card p span {
+      font-weight: 700;
+      font-size: 18px;
+}
+
+.farms .farm-styled-card .farm-card button {
+      color: #ae0707;
+      border-radius: 4px;
+      border: none;
+      width: 16rem;
+      padding: 10px 35px;
+      background: rgba(174, 7, 7, 0.04);
+      font-size: 13px;
+      margin-top: 1.3rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+}
+
+.farms .farm-styled-card .farm-card button {
+      color: #ae0707;
+      border-radius: 4px;
+      border: none;
+      width: 16rem;
+      padding: 10px 35px;
+      background: rgba(174, 7, 7, 0.04);
+      font-size: 13px;
+      margin-top: 1.3rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+}
+
+.farms .farm-styled-card .farm-card button:disabled {
+      background: #ae0707;
+      color: white;
+      cursor: not-allowed;
+}
+
+.farms .farm-styled-card .farm-card button:hover {
+      background: #ae0707;
+      color: white;
+      cursor: pointer;
+      transition: 0.5s;
+}

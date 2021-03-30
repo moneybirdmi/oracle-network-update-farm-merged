@@ -1,0 +1,84 @@
+.bird-farm-component {
+      text-align: center;
+}
+
+.bird-farm-component .header {
+      display: flex;
+      justify-content: space-between;
+      text-align: initial;
+}
+
+.bird-farm-component .header .search-component {
+      top: 0 !important;
+}
+
+.bird-farm-component .avatar {
+      text-align: center;
+}
+
+.bird-farm-component .avatar img {
+      width: 4.5rem;
+      height: 4.5rem;
+      margin: 10px;
+      padding: 13px;
+      border-radius: 50%;
+      background: #ffffff;
+      text-align: center;
+      box-shadow: 0px 0px 28.4381px rgb(0 0 0 / 3%);
+      margin-top: 2rem;
+}
+
+.bird-farm-component .cards {
+      display: flex;
+      margin-top: 2.5rem;
+      justify-content: center;
+}
+
+.bird-farm-component .cards .farm-card {
+      width: 25rem;
+      background: white;
+      padding: 1rem;
+      margin-right: 4rem;
+      border: 0.793556px solid #e8e2e2;
+      box-sizing: border-box;
+      box-shadow: 0px 1.19309px 5.96545px rgba(148, 183, 240, 0.16);
+      border-radius: 20px;
+}
+
+.bird-farm-component .cards .farm-card img {
+      padding: 13px;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      background: #f4f5f7;
+      box-shadow: 0px 0px 21.6819px rgb(0 0 0 / 3%);
+      margin-top: 2rem;
+}
+
+.bird-farm-component .cards .farm-card .price {
+      margin-top: 8px;
+      font-size: 3rem;
+      font-weight: 700;
+      color: #032352;
+}
+
+.bird-farm-component .cards .farm-card .note {
+}
+
+.bird-farm-component .cards .farm-card .note span {
+      font-weight: 600;
+}
+
+.bird-farm-component .cards .farm-card button {
+      margin-bottom: 2.4rem;
+      color: #ae0707;
+      border-radius: 4px;
+      border: none;
+      width: 15rem;
+      padding: 10px;
+      background: rgba(174, 7, 7, 0.04);
+      font-size: 13px;
+      margin-top: 2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+}

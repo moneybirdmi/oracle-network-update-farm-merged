@@ -1,0 +1,81 @@
+.oracle-analytics {
+}
+
+.oracle-analytics .total-balance {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -12px;
+}
+
+.oracle-analytics .analytics {
+      margin-top: 20px;
+}
+
+.oracle-analytics .analytics .node-card {
+      text-align: center;
+      padding: 4rem 10px;
+      margin-top: 2rem;
+      background: #ffffff;
+      border: 1.10756px solid #e8e2e2;
+      box-sizing: border-box;
+      box-shadow: 0px 1.66518px 8.32589px rgba(148, 183, 240, 0.16);
+      border-radius: 23.2587px;
+}
+
+.oracle-analytics .analytics .node-card .badge {
+      padding: 5px 20px;
+      background: rgba(43, 159, 122, 0.06);
+      border-radius: 20px;
+      color: #2b9f7a;
+}
+
+.oracle-analytics .analytics .node-card .address {
+      margin-top: 2rem;
+      color: #495f7f;
+}
+
+.oracle-analytics .analytics .node-card .address p {
+      margin-top: 9px;
+      margin-bottom: 0px;
+}
+
+.oracle-analytics .analytics .node-card .address p a {
+      color: #495f7f;
+}
+
+.oracle-analytics .analytics .graph-card {
+      background: white;
+      text-align: center;
+      padding: 4rem 2rem;
+      border: 1.10756px solid #e8e2e2;
+      box-sizing: border-box;
+      box-shadow: 0px 1.66518px 8.32589px rgb(148 183 240 / 16%);
+      border-radius: 23.2587px;
+      height: 33rem;
+}
+
+.oracle-analytics .analytics .graph-card span {
+      font-size: 13px;
+}
+
+.oracle-analytics .analytics .graph-card .graph {
+      margin-top: 3rem;
+      margin-bottom: 2.5rem;
+}
+
+.oracle-analytics .analytics .graph-card .bizcharts-plot {
+      height: 230px !important;
+      margin-bottom: 1rem;
+}
+
+.oracle-analytics .analytics .graph-card h5 {
+      font-size: 13px;
+}
+
+.oracle-analytics .analytics .graph-card .update-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      margin-bottom: -20px;
+}
